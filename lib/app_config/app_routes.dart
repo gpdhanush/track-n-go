@@ -10,6 +10,8 @@ class AppRoute {
             return const SplashScreen();
           case "login":
             return const LoginPage();
+          case "dashboard":
+            return const Dashboard();
           default:
             return const SplashScreen();
         }
